@@ -49,12 +49,14 @@
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
 
- /* Backlight configuration
- */
+/*
+ * Disable all backlight / underlight
+
+ Backlight configuration
 #define BACKLIGHT_LEVELS 1
 
-/* Underlight configuration
- */
+ Underlight configuration
+
 #define RGB_DI_PIN D7
 #define RGBLED_NUM 18     // Number of LEDs
 #define RGBLIGHT_HUE_STEP 32
@@ -70,3 +72,5 @@
 #define RGBLIGHT_EFFECT_KNIGHT_OFFSET 2   // The led to start at
 #define RGBLIGHT_EFFECT_KNIGHT_LED_NUM 5  // How many LEDs to travel
 #define RGBLIGHT_EFFECT_SNAKE_LENGTH 4    // How many LEDs wide to light up
+
+*/
