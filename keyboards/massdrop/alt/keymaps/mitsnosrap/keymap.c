@@ -24,8 +24,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,  KC_LALT, KC_LGUI,                            KC_SPC,                             KC_RGUI, MO(1),   KC_LEFT, KC_DOWN, KC_RGHT  \
     ),
     [1] = LAYOUT(
-        _______,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_EQL,  \
-        _______, M_GSTAT, M_GBRAN, M_GLOG,  M_GPULL, M_GPRUN, M_GCDEV, _______, _______, M_GDIFF, KC_MPLY, KC_MRWD, KC_MFFD, KC_MUTE, KC_EQL, \
+        _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_EQL,  \
+        _______, M_GSTAT, M_GBRAN, M_GLOG,  M_GPULL, M_GPRUN, M_GCDEV, _______, _______, M_GDIFF, KC_MPLY, KC_MRWD, KC_MFFD, KC_MUTE, KC_EQL,  \
         KC_CAPS, M_GSLIS, M_GSSHO, M_GSAPL, M_GSDRO, M_GSPUS, _______, _______, _______, _______, _______, M_CLLOG,          _______, KC_F15,  \
         _______, M_ACFER, M_ACPAR, M_ACPRE, M_AOTLS, M_AOALS, M_AORLS, _______, _______, MO(2),   _______, _______,          KC_VOLU, KC_F14,  \
         _______, _______, _______,                            _______,                            _______, MO(1),   KC_HOME, KC_VOLD, KC_END   \
